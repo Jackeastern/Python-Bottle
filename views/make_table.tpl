@@ -4,8 +4,14 @@
 %for row in rows:
   <tr>
   %for col in row:
-    <td>{{col}}</td>
+    <td>{{col}} </td>
   %end
+  <td><button type="submit" name="save" method="GET" onclick="myFunction({{row[0]}})" >Edit</button></td>
   </tr>
 %end
 </table>
+<script>
+function myFunction(edit){
+    window.location.href="/edit/"+edit;
+}
+</script>
