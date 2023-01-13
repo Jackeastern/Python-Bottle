@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>All About Bottles</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <h1>All About Bottles</h1>
